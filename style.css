@@ -27,9 +27,9 @@ body{
         
     } */
 
-    .row-1{
+    .row-1{ 
         display: grid;
-        gap: 3%;
+        gap: 4%;
     }
     .row-1::after{
         content: "\a\a\a\a\a\a\a\a\a\a";
