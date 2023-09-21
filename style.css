@@ -1,0 +1,62 @@
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+ }
+
+ @media screen and  (max-width: 665px) {
+    .chnages video {
+           margin-left: 1000px; 
+           height: 500px; 
+    }
+
+     .head {
+        color: red;
+        margin-left: 149px;
+    }
+
+    .middle-heading h1{
+        margin-left: 149px;
+        
+        
+    }
+
+    /* .brocode{
+        display: grid;
+        margin-left: 150px;
+        
+    } */
+
+    .row-1{
+        display: grid;
+        gap: 3%;
+    }
+    .row-1::after{
+        content: "\a\a\a\a\a\a\a\a\a\a";
+        white-space: pre;
+    }
+
+    .row-2{
+        display: grid;
+        gap: 3%;
+    }
+   
+    .row-2::after{
+        content: "\a\a\a\a\a\a\a\a\a\a";
+        white-space: pre;
+    }
+   
+    .card{
+        margin-left: 150px;
+    }
+
+
+    }
+
+
+  
+
+    
+ 
+    
+ 
